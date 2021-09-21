@@ -13,10 +13,19 @@
     
     <form name="myform" onsubmit="return validateForm()" method="post">
         <p><label>Rows: </label><input type="number" name="ligne"></p>
-        <p><label>Col: </label> <input type="number" name="colonne0" ></p>
+        <p><label>Col: </label> <input type="number" name="colonne" ></p>
         <input type="submit" value="Valider"> 
     </form>
-   
+
+    <div id="table-container"></div>
+    <table id="color-picker">
+        <tr>
+            <td class="color-picker red">red</td>
+            <td class="color-picker green">green</td>
+            <td class="color-picker black">black</td>
+            <td class="color-picker purple">purple</td>
+        </tr>
+    </table>
            
     <script type="text/javascript" src="script.js"></script>
 </body>
